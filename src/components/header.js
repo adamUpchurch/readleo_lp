@@ -13,7 +13,6 @@ const Header = ({siteTitle}) => (
                         <h1 style={{marginTop: 0}}>Leo</h1>
                     </Link>
                 </div>
-
                 <div className={"get-started"}>
                     <a href={"https://testflight.apple.com/join/kw2whfjH"} target="_blank">Test the Beta</a>
                 </div>

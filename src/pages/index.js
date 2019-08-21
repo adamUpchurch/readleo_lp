@@ -123,13 +123,13 @@ const IndexPage = () => (
         <div className={"call-to-action"}>
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
-                    <h2>Sign up for free</h2>
-                    <p>Sign up and start learning a new language fast.</p>
-                    <p>People say that the best way to learn a new language is to fully immerse yourself. We think this is the next best thing.</p>
+                    <h2>Stay Tuned to Leo</h2>
+                    <p>Stay up to date with our journey, things we've learned along the way & learning a new language.</p>
+                    {/* <p>People say that the best way to learn a new language is to fully immerse yourself. We think this is the next best thing.</p> */}
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://forms.gle/mB36oNHirz7w2G6T8" target={"_blank"}>Get Started</a>
+                    <a href="https://forms.gle/mB36oNHirz7w2G6T8" target={"_blank"}>Stay tuned</a>
                 </div>
             </div>
         </div>
