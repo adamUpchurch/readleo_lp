@@ -28,7 +28,7 @@ const Layout = ({children}) => (
       }
     `} render={data => (
         <>
-            <Header siteTitle={data.site.siteMetadata.title}/>
+        <Header siteTitle={data.site.siteMetadata.title}/>
             <main>{children}</main>
             <footer>
                 <div className={"container"}>
@@ -48,17 +48,17 @@ const Layout = ({children}) => (
                             </div>
                         </div>
 
-                        <div className={"col-2"}>
+                        {/* <div className={"col-2"}>
                             <div className={"widget__item"}>
                                 <ul className={"links"}>
                                     <h4>Leo</h4>
                                     <ul>
-                                        {/* <li><a href={"https://histaff.io/blog"}>Blog</a></li> */}
-                                        {/* <li><a className={"links__special"} href={"https://feedback.histaff.io/"} target={"_blank"} title={"We look forward to receiving your great feedback"}>Feedback</a></li> */}
+                                        <li><a href={"https://histaff.io/blog"}>Blog</a></li>
+                                        <li><a className={"links__special"} href={"https://feedback.histaff.io/"} target={"_blank"} title={"We look forward to receiving your great feedback"}>Feedback</a></li>
                                     </ul>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className={"col-2"}>
                             <div className={"widget__item"}>

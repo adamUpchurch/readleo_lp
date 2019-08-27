@@ -23,8 +23,8 @@ const IndexPage = () => (
             {/* <div style={{margin: 50, marginBottom: -50, textAlign: "center"}}>
                 <iframe src="https://appetize.io/embed/<PUBLIC_KEY>?device=iphonex&scale=75&autoplay=false&orientation=portrait&deviceColor=black" width="378px" height="800px" frameborder="0" scrolling="no" style={{display: "inline-block"}}></iframe>
             </div> */}
-            <video width="960" height="720" autoPlay>
-            <source src={thumbnailVideo} type="video/mp4" />
+            <video width="100%" height="auto" autoPlay>
+                <source src={thumbnailVideo} type="video/mp4" />
             </video>
         </div>
 

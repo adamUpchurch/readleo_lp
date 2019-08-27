@@ -3,7 +3,17 @@ import PropTypes from "prop-types"
 import React from "react"
 import logo from "../../static/images/LeoLogo.png"
 
-const Header = ({siteTitle}) => (
+function BetaPage(props) {
+  if(true){
+    return (
+      <div className={"get-started"}>
+        <a href={"/beta"}>Test the Beta</a>
+      </div>
+    )
+  }
+}
+
+const Header = (props) => (
     <header>
         <div className={"container"}>
             <div className={"top-menu"}>
@@ -13,9 +23,7 @@ const Header = ({siteTitle}) => (
                         <h1 style={{marginTop: 0}}>Leo</h1>
                     </Link>
                 </div>
-                <div className={"get-started"}>
-                    <a href={"https://testflight.apple.com/join/kw2whfjH"} target="_blank">Test the Beta</a>
-                </div>
+                <BetaPage />
             </div>
         </div>
     </header>
