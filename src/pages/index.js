@@ -73,11 +73,11 @@ const IndexPage = () => (
 
                         <div className={"col-12"}>
                             <div className={"feature__content"}>
-                                <h2>It's a three step process:</h2>
+                                <h2>Leo is just a step in the language learning process.</h2>
                                 <ol>
-                                    <li>1. Learn Words & Grammar, naturally.</li>
-                                    <li>2. Learn Pronounciation & the skill of Listening with podcasts, movies & music.</li>
-                                    <li>3. Finally, go converse!</li>
+                                    <li>First, go learn the vocabulary & grammar, naturally.</li>
+                                    <li>Then learn pronunciation & the skill of listening with podcasts, movies & music.</li>
+                                    <li>Throughout the journey, go converse! Text some friends without google translate, order food at restaurant or visit a country that natively speaks the language you're learning.</li>
                                 </ol>
                             </div>
                         </div>
