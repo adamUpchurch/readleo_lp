@@ -9,6 +9,7 @@ import thumbnailNews from "../../static/images/feature-news.png"
 import thumbnailTeams from "../../static/images/feature-team.png"
 import thumbnailStaff from "../../static/images/feature-user.png"
 import thumbnailVideo from "../../static/videos/demo.mp4"
+import iconTwitter from "../../static/images/icon-twitter.svg"
 
 const IndexPage = () => (
     <Layout>
@@ -18,12 +19,12 @@ const IndexPage = () => (
             <h1 style={{margin: 0}}>I read</h1>
             <h1 style={{margin: 0}}>Leo</h1>
             <div style={{marginTop: 30}}>
-                <p>Add color to the way you learn.<br/>Agrega color a la forma en que aprende.</p>
+                <p>Learn to read a new language like this.<br/>Aprende a leer un nuevo idioma como esto.</p>
             </div>
             {/* <div style={{margin: 50, marginBottom: -50, textAlign: "center"}}>
                 <iframe src="https://appetize.io/embed/<PUBLIC_KEY>?device=iphonex&scale=75&autoplay=false&orientation=portrait&deviceColor=black" width="378px" height="800px" frameborder="0" scrolling="no" style={{display: "inline-block"}}></iframe>
             </div> */}
-            <video width="100%" height="auto" autoPlay>
+            <video width="100%" height="auto" autoPlay controls>
                 <source src={thumbnailVideo} type="video/mp4" />
             </video>
         </div>
@@ -40,7 +41,7 @@ const IndexPage = () => (
                         <div className={"col-12"}>
                             <div className={"feature__content"}>
                                 <h2>Read your favorite stories</h2>
-                                <p>Don't just learn a language. Enjoy learning a language by reading a thrilling novel or a must read classic.</p>
+                                <p>Don't just learn a language. Enjoy learning a language by reading a thrilling novel or a must read classic. Read your favorite novels line by line in your native language and the language you're learning.</p>
                             </div>
                         </div>
                     </div>
@@ -125,6 +126,12 @@ const IndexPage = () => (
                 <div className={"call-to-action__content"}>
                     <h2>Stay Tuned to Leo</h2>
                     <p>Stay up to date with our journey, things we've learned along the way & learning a new language.</p>
+                    <div className={"widget__item"} style={{display:'inline-block'}}>
+                        <div className={"social"}>
+                            <p>And follow us on twitter</p>
+                            <a href="https://twitter.com/goreadleo" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
+                        </div>
+                    </div>
                     {/* <p>People say that the best way to learn a new language is to fully immerse yourself. We think this is the next best thing.</p> */}
                 </div>
 

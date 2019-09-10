@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Calendly from "../components/calendly"
 import SEO from "../components/seo"
+import iconTwitter from "../../static/images/icon-twitter.svg"
 
 const BetaPage = () => (
     <Layout>
@@ -13,15 +14,19 @@ const BetaPage = () => (
                     <h1>Beta</h1>
                 </div>
                 <div className={"row"}>
-                    <div className={"col-7"}>
+                    <div className={"col-8"}>
                         <p>I really appreciate you taking the time to download the Leo Beta. I hope you enjoy the experience. We have quite a lot of work to do until we can deliver the true experience we want you to have.</p>
                         <br/>
                         <p>If you'd like to contribute, we are looking for people willing to chat for about 15 minutes about your experience & goals with learning a new language. Just click the button "Let's Chat" to find some time on our calendar.</p>
                         <br/>
+                        <div className={"widget__item"} style={{display:'inline-block'}}>
+                        <div className={"social"}>
+                            <p>And follow us on twitter</p>
+                            <a href="https://twitter.com/goreadleo" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
+                        </div>
                     </div>
-                </div>
-                <div className={"row"}>
-                    <div className={"col-12"}>
+                    </div>
+                    <div className={"col-4"}>
                         <div className={"call-to-action"}>
                             <div className={"container"}>
                                 <div className={"row"}>

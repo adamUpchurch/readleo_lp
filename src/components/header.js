@@ -2,6 +2,8 @@ import {Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import logo from "../../static/images/LeoLogo.png"
+import iconTwitter from "../../static/images/icon-twitter.svg"
+
 
 function BetaPage(props) {
   if(true){
@@ -23,7 +25,10 @@ const Header = (props) => (
                         <h1 style={{marginTop: 0}}>Leo</h1>
                     </Link>
                 </div>
-                <BetaPage />
+                <div>
+                    <BetaPage />
+
+                </div>
             </div>
         </div>
     </header>
