@@ -22,6 +22,20 @@ body {
     }
   }
 
+  .btn {
+    width: 160px;
+    height: 47px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 47px;
+    display: block;
+    background: #8953B7;
+    border-radius: 4px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
   header {
     background-color: #FDEA35;
     display: block;
@@ -62,8 +76,9 @@ body {
 
   /* To see the limits of the form */
   padding: 1em;
-  border: 1px solid #CCC;
+  // border: 1px solid #CCC;
   border-radius: 1em;
+  text-align: center;
 }
 
 div + div {

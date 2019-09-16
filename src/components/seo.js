@@ -69,7 +69,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `og:image`,
-          content: 'https://i.imgur.com/YlYcuiV.png',
+          content: 'https://i.imgur.com/YlYcuiV.png?1',
         },
       ].concat(meta)}
     />
