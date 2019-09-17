@@ -37,25 +37,25 @@ class BasicForm extends React.Component {
     
     handleSubmit(event) {
 
-        sgMail.setApiKey('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');
-        console.log(event.target)
+        // sgMail.setApiKey(');
+        // console.log(event.target)
 
-        const msg = {
-            to: 'aupchurch167@gmail.com' ,
-            from: 'goreadleo@gmail.com',
-            subject: '[Leo] Download the iOS Beta - go read',
-            text: 'Follow this link. https://testflight.apple.com/join/kw2whfjH -Adam',
-            html: `
-                <p>Hey, thanks for downloading Leo!<p/>
-                <p> I hope you enjoy it</p>
-                <p>Follow this link. https://testflight.apple.com/join/kw2whfjH </p>
-                <p>If you'd like to contribute and let me know how I can make it better, grab some time on my calendar here: </p>
-                <p>https://calendly.com/readleo/chat</p>
-                <p>Adam</p>
-            `,
-        };
-        sgMail.send(msg);
-        event.preventDefault();
+        // const msg = {
+        //     to: 'aupchurch167@gmail.com' ,
+        //     from: 'goreadleo@gmail.com',
+        //     subject: '[Leo] Download the iOS Beta - go read',
+        //     text: 'Follow this link. https://testflight.apple.com/join/kw2whfjH -Adam',
+        //     html: `
+        //         <p>Hey, thanks for downloading Leo!<p/>
+        //         <p> I hope you enjoy it</p>
+        //         <p>Follow this link. https://testflight.apple.com/join/kw2whfjH </p>
+        //         <p>If you'd like to contribute and let me know how I can make it better, grab some time on my calendar here: </p>
+        //         <p>https://calendly.com/readleo/chat</p>
+        //         <p>Adam</p>
+        //     `,
+        // };
+        // sgMail.send(msg);
+        // event.preventDefault();
 
     }
 
