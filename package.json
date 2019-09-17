@@ -5,8 +5,7 @@
   "version": "0.1.0",
   "author": "Adam Upchurch <aupchurch167@gmail.com>",
   "dependencies": {
-    "@sendgrid/mail": "^6.4.0",
-    "formik": "^1.5.8",
+    "axios": "^0.19.0",
     "fs": "0.0.1-security",
     "gatsby": "^2.7.5",
     "gatsby-cli": "^2.6.5",

@@ -1,8 +1,6 @@
 import React from "react"
-import sgMail from '@sendgrid/mail'
-
+const axios = require('axios');
 class BasicForm extends React.Component {
-    
     constructor(props) {
         super(props);
         this.state = {name: '', email: '', isOptedIn: true};
@@ -10,8 +8,6 @@ class BasicForm extends React.Component {
         this.handleInputChange = this.handleInputChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
       }
-
-
       buttonStyle = {
         width: '30%',
         height: '47', 
@@ -26,7 +22,6 @@ class BasicForm extends React.Component {
         borderRadius: '4px',
         margin:'auto'
     }
-
     handleInputChange(event) {
         const target = event.target;
         const name = target.name;
@@ -34,31 +29,16 @@ class BasicForm extends React.Component {
 
         this.setState({[name]: value});
     }
-    
     handleSubmit(event) {
-
-        // sgMail.setApiKey(');
-        // console.log(event.target)
-
-        // const msg = {
-        //     to: 'aupchurch167@gmail.com' ,
-        //     from: 'goreadleo@gmail.com',
-        //     subject: '[Leo] Download the iOS Beta - go read',
-        //     text: 'Follow this link. https://testflight.apple.com/join/kw2whfjH -Adam',
-        //     html: `
-        //         <p>Hey, thanks for downloading Leo!<p/>
-        //         <p> I hope you enjoy it</p>
-        //         <p>Follow this link. https://testflight.apple.com/join/kw2whfjH </p>
-        //         <p>If you'd like to contribute and let me know how I can make it better, grab some time on my calendar here: </p>
-        //         <p>https://calendly.com/readleo/chat</p>
-        //         <p>Adam</p>
-        //     `,
-        // };
-        // sgMail.send(msg);
-        // event.preventDefault();
-
+        axios({
+            method: 'post',
+            url: 'http://127.0.0.1:5000/read_leo_add_subscriber',
+            data: {
+                name: this.state.name,
+                email: this.state.email
+            }
+        })
     }
-
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
@@ -68,5 +48,4 @@ class BasicForm extends React.Component {
             </form>
         )}
     }
-
 export default BasicForm

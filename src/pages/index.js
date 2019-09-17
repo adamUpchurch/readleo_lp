@@ -2,7 +2,6 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import TheForm from "../components/TheForm"
 import BasicForm from "../components/BasicForm"
 import featureImage from "../../static/images/hero.png";
 import thumbnailEvent from "../../static/images/feature-event.png"
@@ -140,11 +139,7 @@ class IndexPage extends React.Component {
                                 </div>
                             </div> */}
                         </div>
-                        {/* <TheForm /> */}
                         <BasicForm />
-                        {/* <div className={"button"}>
-                            <a href="https://forms.gle/mB36oNHirz7w2G6T8" target={"_blank"}>Stay tuned</a>
-                        </div> */}
                     </div>
                 </div>
             </Layout>
