@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import BasicForm from "../components/BasicForm"
+import BasicForm from "../components/basicForm"
 import featureImage from "../../static/images/hero.png";
 import thumbnailEvent from "../../static/images/feature-event.png"
 import thumbnailBoard from "../../static/images/feature-board.png"
