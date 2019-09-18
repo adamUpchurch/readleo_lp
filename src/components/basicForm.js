@@ -32,7 +32,7 @@ class BasicForm extends React.Component {
     handleSubmit(event) {
         axios({
             method: 'post',
-            url: 'http://127.0.0.1:5000/read_leo_add_subscriber',
+            url: 'https://cindytweepy.herokuapp.com/read_leo_add_subscriber',
             data: {
                 name: this.state.name,
                 email: this.state.email
