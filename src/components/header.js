@@ -9,7 +9,7 @@ function BetaPage(props) {
   if(true){
     return (
       <div className={"get-started"}>
-        <a href={"http://goreadleo.com/#download_beta"}>Test the Beta</a>
+        <a href={"http://www.readleo.com/#download_beta"}>Test the Beta</a>
       </div>
     )
   }
