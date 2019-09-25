@@ -30,14 +30,10 @@ class BasicForm extends React.Component {
         this.setState({[name]: value});
     }
     handleSubmit(event) {
-        axios({
-            method: 'post',
-            url: 'https://cindytweepy.herokuapp.com/read_leo_add_subscriber',
-            data: {
+        axios.post('https://cindytweepy.herokuapp.com/read_leo_add_subscriber', {
                 name: this.state.name,
                 email: this.state.email
-            }
-        })
+            })
     }
     render() {
         return (
