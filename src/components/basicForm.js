@@ -40,7 +40,7 @@ class BasicForm extends React.Component {
             <form onSubmit={this.handleSubmit}>
                 <input type='text' name='name' placeholder='name' value={this.state.name} onChange={this.handleInputChange} />
                 <input type='email' name='email' placeholder='email' value={this.state.email} onChange={this.handleInputChange} />
-                <input style={this.buttonStyle} type="submit" value="Submit" />
+                <input style={this.buttonStyle} type="submit" value="go read" />
             </form>
         )}
     }

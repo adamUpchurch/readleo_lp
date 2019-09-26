@@ -126,21 +126,15 @@ class IndexPage extends React.Component {
                         </div> */}
                     </div>
                 </div>
-
                 <div className={"call-to-action"}>
-                    <div className={"container"}>
+                    <iframe src="https://cdn.forms-content.sg-form.com/e15ac4da-e007-11e9-b3ab-569bf7c2727d"/>
+                    {/* <div className={"container"}>
                         <div id={"download_beta"} className={"call-to-action__content"}>
                             <h2>Download the iOS Beta</h2>
                             <p>I will send you a link from goreadleo@gmail.com to go a 'testflight.apple.com' website. Just follow the instructions. Also, if you don't mind, I'll keep you up to date on our journey with periodic emails.</p>
-                            {/* <div className={"widget__item"} style={{display:'inline-block'}}>
-                                <div className={"social"}>
-                                    <p>And follow us on twitter</p>
-                                    <a href="https://twitter.com/goreadleo" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
-                                </div>
-                            </div> */}
                         </div>
                         <BasicForm />
-                    </div>
+                    </div> */}
                 </div>
             </Layout>
         )}
