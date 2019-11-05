@@ -126,7 +126,7 @@ class IndexPage extends React.Component {
                         </div> */}
                     </div>
                 </div>
-                <div className={"call-to-action"}>
+                <div className={"call-to-action"} id="download_beta">
                     <iframe src="https://cdn.forms-content.sg-form.com/e15ac4da-e007-11e9-b3ab-569bf7c2727d"/>
                     {/* z</div> */}
                 </div>

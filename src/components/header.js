@@ -9,7 +9,7 @@ function BetaPage(props) {
   if(true){
     return (
       <div className={"get-started"}>
-        <a href={"http://www.readleo.com/#download_beta"}>Test the Beta</a>
+        <a href={"readleo.com/#download_beta"}>Test the Beta</a>
       </div>
     )
   }
@@ -27,7 +27,6 @@ const Header = (props) => (
                 </div>
                 <div>
                     <BetaPage />
-
                 </div>
             </div>
         </div>
