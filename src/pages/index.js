@@ -4,7 +4,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BasicForm from "../components/basicForm"
 import featureImage from "../../static/images/hero.png";
-import thumbnailEvent from "../../static/images/feature-event.png"
+import thumbnailBook from "../../static/images/ReadLeoBook.png"
+import thumbnailWizard from "../../static/images/wordWizard.png"
+import thumbnailSalsa from "../../static/images/salsa.png"
 import thumbnailBoard from "../../static/images/feature-board.png"
 import thumbnailNews from "../../static/images/feature-news.png"
 import thumbnailTeams from "../../static/images/feature-team.png"
@@ -39,12 +41,12 @@ class IndexPage extends React.Component {
                     <div className={"features"}>
                         <div className={"feature__item"}>
                             <div className={"row"}>
-                                {/* <div className={"col-6 first"}>
+                                <div className={"col-6 first"}>
                                     <div className={"thumbnail"}>
-                                        <img alt={"Event"} src={thumbnailEvent}/>
+                                        <img alt={"Event"} src={thumbnailBook}/>
                                     </div>
-                                </div> */}
-                                <div className={"col-12"}>
+                                </div>
+                                <div className={"col-6"}>
                                     <div className={"feature__content"}>
                                         <h2>Read your favorite stories</h2>
                                         <p>Don't just learn a language. Enjoy learning a language by reading a thrilling novel or a must read classic. Read your favorite novels line by line in your native language and the language you're learning.</p>
@@ -55,36 +57,36 @@ class IndexPage extends React.Component {
 
                         <div className={"feature__item"}>
                             <div className={"row"}>
-                                <div className={"col-12"}>
+                                <div className={"col-6"}>
                                     <div className={"feature__content"}>
                                         <h2>Learn more words, faster.</h2>
-                                        <p>The Hobbit by JRR Tolkien has 96,072 words,<br/>with 6,911 unique words. You'll never get that kind of exposure with other learning apps.</p>
+                                        <p>The Hobbit by JRR Tolkien has 96,072 words,<br/>with 6,911 unique words. You'll be a Word Wizard in no time!</p>
                                     </div>
                                 </div>
 
-                                {/* <div className={"col-6 first"}>
+                                <div className={"col-6 first"}>
                                     <div className={"thumbnail"}>
-                                        <img alt={"Board"} src={thumbnailBoard}/>
+                                        <img alt={"Board"} src={thumbnailWizard}/>
                                     </div>
-                                </div> */}
+                                </div>
                             </div>
                         </div>
 
                         <div className={"feature__item"}>
                             <div className={"row"}>
-                                {/* <div className={"col-6 first"}>
+                                <div className={"col-6 first"}>
                                     <div className={"thumbnail"}>
-                                        <img alt={"News"} src={thumbnailNews}/>
+                                        <img alt={"News"} src={thumbnailSalsa}/>
                                     </div>
-                                </div> */}
+                                </div>
 
-                                <div className={"col-12"}>
+                                <div className={"col-6"}>
                                     <div className={"feature__content"}>
-                                        <h2>Leo is just a step in the language learning process.</h2>
+                                        <h2>Embrace the culture!</h2>
                                         <ol>
-                                            <li>First, go learn the vocabulary & grammar, naturally.</li>
-                                            <li>Then learn pronunciation & the skill of listening with podcasts, movies & music.</li>
-                                            <li>Throughout the journey, go converse! Text some friends without google translate, order food at restaurant or visit a country that natively speaks the language you're learning.</li>
+                                            <li>Read Leo is just one tool for learning spanish. There are so many ways to learn.</li>
+                                            <li>Use DuoLingo for a little variety, find a penpal, watch Spanish Netflix, Youtube or Twitch.</li>
+                                            <li>But most importantly, go live the life! Take salsa dancing, cook Spanish & Latin food, travel or even live in a Spanish speakign country!</li>
                                         </ol>
                                     </div>
                                 </div>
